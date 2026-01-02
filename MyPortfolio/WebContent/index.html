@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ajinkya Ghodke | SDET | QA Automation Engineer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">AJ</div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn-gradient" href="#contact">Connect</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-left">
+      <p class="eyebrow">Hi There! <span class="wave">👋</span></p>
+
+      <h1>I’M <span class="gradient-text">AJINKYA</span></h1>
+
+      <p class="tagline">
+        SDET | QA Automation Engineer | 4.8+ Years | Banking & FinTech
+      </p>
+
+      <a href="#contact" class="btn btn-gradient btn-lg">
+        Book a Meeting 🤝
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <div class="container card">
+    <h2>LET ME INTRODUCE MYSELF</h2>
+
+    <p>
+      I am a Software Development Engineer in Test (SDET) with 4.8+ years of
+      experience in Banking and Financial Services domains.
+    </p>
+
+    <p>
+      I specialize in designing scalable automation frameworks using Java,
+      Selenium WebDriver, TestNG, REST Assured, and BDD (Cucumber).
+      I have strong hands-on experience in API testing, database validation
+      using SQL, and CI/CD integration with Jenkins.
+    </p>
+
+    <p class="subtitle">
+      Focused on clean code, reusability, and reducing regression effort
+      through automation.
+    </p>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <div class="container card">
+    <h2>Projects</h2>
+
+    <h3>BankPro – End-to-End Automation Framework</h3>
+    <ul>
+      <li>Automated core banking modules: Login, Accounts, Fund Transfer, Transactions</li>
+      <li>Designed Hybrid Automation Framework using Page Object Model</li>
+      <li>Integrated Selenium WebDriver, TestNG, Maven, and Jenkins</li>
+      <li>Implemented data-driven testing using Apache POI</li>
+      <li>Generated Extent Reports with screenshots on test failures</li>
+    </ul>
+
+    <h3>API Automation – REST Assured Framework</h3>
+    <ul>
+      <li>Automated REST APIs using REST Assured and Java</li>
+      <li>Implemented request chaining and response validation</li>
+      <li>Validated API responses against SQL database</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+  <div class="container card">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <ul>
+        <li>Java (Core, OOPS, Collections)</li>
+        <li>Selenium WebDriver</li>
+        <li>TestNG / JUnit</li>
+        <li>Cucumber BDD</li>
+      </ul>
+      <ul>
+        <li>REST Assured (API Testing)</li>
+        <li>SQL (Joins, Subqueries)</li>
+        <li>Git & GitHub</li>
+        <li>CI/CD – Jenkins</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESUME ================= -->
+<section id="resume" class="section">
+  <div class="container card center">
+    <h2>Resume</h2>
+
+    <!-- Place resume inside assets folder -->
+    <a href="assets/Ajinkya_Resume.pdf"
+       target="_blank"
+       class="btn btn-gradient">
+      Download Resume 📄
+    </a>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+  <div class="container card">
+    <h2>FIND ME ON</h2>
+    <p>Feel free to connect with me:</p>
+
+    <ul class="contact-list">
+      <li>
+        <a href="mailto:ghodke.ajinkya22@gmail.com">
+          ghodke.ajinkya22@gmail.com
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/ajinkya-ghodke-17aa3b246"
+           target="_blank">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/ajinkyaghodke123"
+           target="_blank">
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Ajinkya Ghodke • SDET | QA Automation Engineer</p>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const links = document.querySelectorAll('.main-nav a');
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      links.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
